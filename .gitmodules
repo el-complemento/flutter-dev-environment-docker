@@ -1,0 +1,3 @@
+[submodule "workspace/QMiAgenda"]
+	path = workspace/QMiAgenda
+	url = git@github.com:el-complemento/QMiAgenda.git
