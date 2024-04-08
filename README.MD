@@ -2,10 +2,20 @@
 
 This repository is a template for mount a local environment for work with Flutter inside a container.
 
+
+
 ## Usage and first steps
 
 1. You need installed [Docker](https://www.docker.com/get-started/) in your machine.
 2. Clone your flutter project into `/workspace` folder.
+   
+   Para hacer esto necesitas ejecutar los siguientes comandos desde la raíz del proyecto:
+   - `git submodule init`
+   - `git submodule update`
+  
+   Haciendo esto traerá el repositorio de QMiAgenda.
+   
+   IMPORTANTE: Por defecto lo trae en la rama `main`, para cambiarla tenes que entrar a `/workspace/QMiAgenda` y cambiar a la rama donde vas a trabajar, esto se hace con el comando `git switch <nombre de rama>`
 3. Open this project in vscode and after select open in container.
 4. Enjoi, happy coding!
 
